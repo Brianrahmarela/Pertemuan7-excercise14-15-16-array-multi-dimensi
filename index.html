@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//fonts.googleapis.com/css?family=Ubuntu"
+		/>
+		<style>
+			html {
+				height: 100%;
+			}
+
+			body {
+				height: 100%;
+				margin: 0;
+				font-family: Ubuntu;
+				/* background: linear-gradient(#b3ffab, #67fffc); */
+			}
+
+			#header {
+				height: 30px;
+				display: flex;
+				align-items: center;
+				background: darkblue;
+				color: #bbbbbb;
+			}
+
+			#headerContent {
+				margin-left: 10px;
+			}
+
+			#page {
+				display: flex;
+			}
+
+			#sideBar {
+				min-width: 100px;
+				max-width: 100px;
+				background: lightskyblue;
+			}
+
+			#content {
+				width: 100%;
+				background: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h3><b>No 1</b></h3>
+		<h1>Multi Dimensonal Array</h1>
+		<div id="header">
+			<div id="headerContent">Nav</div>
+		</div>
+		<div id="page">
+			<div id="sideBar">
+				<!-- <div class="flex-item">1</div>
+					<div class="flex-item">2</div>
+					<div class="flex-item">3</div>
+					<div class="flex-item">4</div> -->
+			</div>
+			<div id="content">content</div>
+		</div>
+		<br />
+		<h1>Bukan Multidimensonal Array</h1>
+		<div id="nonmulti">
+			<h3><b>No 2</b></h3>
+			<div id="no2"></div>
+			<br />
+			<h3><b>No 3</b></h3>
+			<div id="no3"></div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
